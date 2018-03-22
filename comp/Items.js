@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text } from 'react-native';
 import { products } from './product';
-import { List, ListItem } from 'react-native-elements'
+import { List, ListItem, Button } from 'react-native-elements'
 import Item from './Item'
 
 
@@ -33,7 +33,11 @@ class Items extends React.Component {
             price={product.price}
             avatar={product.avatar_url}
             icon={product.icon}
-            key={product.id} />)})}
+            key={product.id} 
+            />
+          )
+    
+            })}
     </List>
   );
 
