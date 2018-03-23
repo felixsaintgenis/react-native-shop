@@ -19,9 +19,9 @@ export default class App extends React.Component {
 
 
         <Header
-  
+  backgroundColor={'#f4a136'}
   leftComponent={{ icon: 'menu', color: '#fff' }}
-  centerComponent={{ text: 'Amazon Clothes', style: { color: '#fff' } }}
+  centerComponent={{ text: 'Boutique Assembl', style: { color: '#fff' } }}
   rightComponent={{ icon: 'shopping-cart', color: '#fff' }}
         />  
 <SearchBar
@@ -29,7 +29,7 @@ export default class App extends React.Component {
   round
   placeholder='Search a product...' />     
         <Items />
-        <Basket />
+        
 
 
   

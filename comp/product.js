@@ -1,44 +1,38 @@
 export const products = [
     {
-        name: "shoes",
-        price: 20,
-        avatar_url: 'https://www.adidas.ca/dis/dw/image/v2/aaqx_prd/on/demandware.static/-/Sites-adidas-products/default/dw7be84d16/zoom/C77153_01_standard.jpg?sh=600&strip=false&sw=600',
+        name: "Blanche du paradis",
+        price: 6,
+        avatar_url: 'https://static.weezbe.com/saveurcanada//Images/products/p_630G_170324185922.jpg',
+        description: 'Bière d’inspiration belge non filtrée brassée avec les épices traditionnelles du style : la coriandre et des écorces d’orange Curaçao.',
         id: 1,
-        icon: 'flight-takeoff'
     },
     {
-        name: "coats",
-        price: 130,
-        avatar_url: 'https://images-na.ssl-images-amazon.com/images/I/71voTfFd65L._UX385_.jpg',
+        name: "Sterling",
+        price: 8,
+        avatar_url: 'https://www.kanata.fr/3237-thickbox/biere-rosee-d-hibiscus-dieu-du-ciel-341ml.jpg',
+        description: 'Créée pour mettre en valeur les caractéristiques herbacées et épicées du houblon Sterling sur une toile de fond plus svelte',
         id: 2,
-        icon: 'flight-takeoff'
     },
     {
-        name: "shirts",
-        price: 40,
-        avatar_url: 'https://www.customink.com/mms/images/catalog/styles/286800/catalog_detail_image_large.jpg',
+        name: "Brise Glace",
+        price: 7,
+        description: 'La Brise Glace est une blanche forte à laquelle on a ajouté du moût de pommes de glace des Vergers de la Colline, en fin de fermentation.',
+        avatar_url: 'https://comptoircanadien.com/484-large_default/biere-brune-dieu-du-ciel-route-des-epices-34-cl-5.jpg',
         id:3,
-        icon: 'flight-takeoff'
+
     },
     {
-        name: "sweats",
-        price: 50,
-        avatar_url: 'https://images-eu.ssl-images-amazon.com/images/I/712xG%2B0MfYL._UX342_.jpg',
+        name: "Aphrodisiaque",
+        price: 9,
+        description: 'L’Aphrodisiaque est une ale noire dans laquelle sont incorporées des fèves de cacao et des gousses de vanille durant le brassage.',
+        avatar_url: 'https://www.kanata.fr/5263-thickbox/biere-genese-dieu-du-ciel-341ml.jpg',
         id:4,
-        icon: 'flight-takeoff'
     },
     {
-        name: "jeans",
-        price: 40,
-        avatar_url: 'https://uniqlo.scene7.com/is/image/UNIQLO/goods_65_408350?$pdp-medium$',
+        name: "Aquarelle",
+        price: 10,
+        avatar_url: 'https://static.weezbe.com/saveurcanada//Images/products/p_637_170412160036_original.jpg',
         id:5,
-        icon: 'flight-takeoff'
-    },
-    {
-        name: "pullovers",
-        price: 60,
-        avatar_url:'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Jersei-coll-alt.jpg/220px-Jersei-coll-alt.jpg',
-        id:6,
-        icon: 'flight-takeoff'
+        description: 'L’Aquarelle est axée sur l’expression des fermentations : d’abord une fermentation lactique pour amener la touche surette',
     }
 ];
